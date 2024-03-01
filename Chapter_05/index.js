@@ -15,7 +15,14 @@ console.log(multiply)
 console.log(divide)
 console.log(modulus)
 console.log(exponent)
-console.log(multiply*addition-subst)
-console.log(divide*addition-subst)
-console.log(exponent*addition-subst)
-console.log(modulus*addition-subst)
+
+
+var bod1= console.log(multiply*addition-subst)
+
+var bod2= console.log(divide*addition-subst)
+
+
+var bod3= console.log(exponent*addition-subst)
+
+
+var bod4= console.log(modulus*addition-subst)
