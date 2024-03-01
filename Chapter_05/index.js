@@ -26,3 +26,27 @@ var bod3= console.log(exponent*addition-subst)
 
 
 var bod4= console.log(modulus*addition-subst)
+
+var pNum=10
+pNum++
+
+console.log(pNum)
+
+var pNum=25
+pNum++
+console.log(pNum)
+
+
+var PNum=18
+pNum--
+
+console.log(pNum)
+
+var dNum=28
+++dNum
+
+console.log(dNum)
+
+var dNum=35
+--dNum
+console.log(dNum)
