@@ -1,0 +1,158 @@
+
+//How to chk lenght of an array//
+
+var fruits= ["appple", "banana","citrus","kiwi"]
+// var size= [fruits.length]
+// document.write(size)
+
+
+///how to add an item in an arrray in last position//
+
+// var fruits= ["appple", "banana","citrus","kiwi"]
+// fruits.push("Mango")
+
+// (5) ['appple', 'banana', 'citrus', 'kiwi', 'Mango']
+// 0
+// : 
+// "appple"
+// 1
+// : 
+// "banana"
+// 2
+// : 
+// "citrus"
+// 3
+// : 
+// "kiwi"
+// 4
+// : 
+// "Mango"
+
+//how to delete an item in the end of an array//
+
+// var fruits= ['appple', 'banana', 'citrus', 'kiwi', 'Mango']
+// fruits.pop("Mango")
+
+// ) ['appple', 'banana', 'citrus', 'kiwi']
+// 0
+// : 
+// "appple"
+// 1
+// : 
+// "banana"
+// 2
+// : 
+// "citrus"
+// 3
+// : 
+// "kiwi"
+
+//how to add an item in the start of an array//
+
+// var fruits= ['appple', 'banana', 'citrus', 'kiwi', 'Mango']
+// fruits.unshift("Strawberry")
+
+
+// (6) ['Strawberry', 'appple', 'banana', 'citrus', 'kiwi', 'Mango']
+// 0
+// : 
+// "Strawberry"
+// 1
+// : 
+// "appple"
+// 2
+// : 
+// "banana"
+// 3
+// : 
+// "citrus"
+// 4
+// : 
+// "kiwi"
+// 5
+// : 
+// "Mango"
+
+//how to delete an item from in the starting of an array//
+
+// var fruits= ['appple', 'banana', 'citrus', 'kiwi', 'Mango']
+// fruits.shift("apple")
+
+// (4) ['banana', 'citrus', 'kiwi', 'Mango']
+// 0
+// : 
+// "banana"
+// 1
+// : 
+// "citrus"
+// 2
+// : 
+// "kiwi"
+// 3
+// : 
+// "Mango"
+
+
+
+//how to add  an item  in the midile of an array//
+
+// var fruits= ['appple', 'banana', 'citrus', 'kiwi', 'Mango']
+// fruits.splice(2,0,"watermelon")
+
+
+// (6) ['appple', 'banana', 'watermelon', 'citrus', 'kiwi', 'Mango']
+// 0
+// : 
+// "appple"
+// 1
+// : 
+// "banana"
+// 2
+// : 
+// "watermelon"
+// 3
+// : 
+// "citrus"
+// 4
+// : 
+// "kiwi"
+// 5
+// : 
+// "Mango"
+// length
+// : 
+// 6
+
+//how to add  an item  in the midile of an array & remove watermelon & cirtusfrom array//
+// var fruits = ['appple', 'banana', 'watermelon', 'citrus', 'kiwi', 'Mango']
+// fruits.splice(2,2)
+
+// (4) ['appple', 'banana', 'kiwi', 'Mango']
+// 0
+// : 
+// "appple"
+// 1
+// : 
+// "banana"
+// 2
+// : 
+// "kiwi"
+// 3
+// : 
+// "Mango"
+
+//how to delete an item fron array//
+
+var fruits= ['appple', 'banana', 'citrus', 'kiwi', 'Mango']
+fruits.slice(0,1)
+
+
+
+// how to concatenate two variables//
+
+// var boy= "Haris"
+// var girl= "Afshan"
+
+// console.log(boy.concat(girl))
+
+// harisAfshan
