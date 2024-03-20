@@ -7,43 +7,40 @@
 </head>
 <body>
 
-    
-// for (var i = 1; i<=7; i++){
-    //     console.log( i+ 'Chakkar')
-    // }
-    <br><br>
-    
-    // for( var i = 1; i<=20; i++){
-    //     console.log('2 *' + 'i'+'='+ 2*i)
-    // }
-    <br><br>
-    // for (var i = 1; i<=20; i++){
-    //     console.log('3 *' + 'i' + '=' + 3*1)
-    // }
-    <br><br>
-    // var i = prompt("type table number")
-    // for ( var i = 1; i<=7; i++){
-    //     console.log('i *' + 1 + '=' + i*7)
-    // }
-    <br><br>
-    
-    // var tableNumber = prompt('enter table number')
-    // for(var i = 1; i<50; i++){
-    //     document.write(tableNumber + '*' + 'i' + '=' + tableNumber*i + '<br>')
-    // }
-    <br><br>
-    // var tableNumber = prompt('Enter Table Number')
-    
-    // for( var i=1; i<=10; i++){
-    //     document.write(tableNumber + '*' + 'i' + '=' + tableNumber * i + '<br>')
-    // }
-    <br><br>
-    
-    var weekDays = ["mon" , "tue" , "wed" , "thur" , "fri" , "sat"]
-    for (var i=0; i<= weekDays.length; i++){
-        document.write(weekDays[i]+ "<br>")
+    <h1>For Loop Basic Excercise</h1>
+<br>
+<h3>Write a loop to print numbers from 1 to 10.</h3>
+    for (var i = 1; i<=10; i++){
+        document.write(i+(' ') + "Round"+"<br><br>")
     }
-    <br><br>
+    <br><hr>
+
+    <h3>Write a loop to print even numbers from 1 to 20.</h3>
+    for (var i = 2; i<=20;i++){
+        document.write(i+"<br><br>");
+    }
+    <br><hr>
+
+    <h3>Write a loop to print odd numbers from 1 to 15.</h3>
+    for (var i = 1; i<=15;i++){
+        document.write(i+"<br><br>");
+    }
+    <br><hr>
+
+    <h3>Write a loop to calculate and print the factorial of a number (let's say 5).</h3>
+
+    var number=5;
+var factorial=1;
+for (var i = 1; i<=number;i++ ){
+    document.write(factorial+"*"+ number+"is:"+ factorial+ "<br><br>")
+}
+<br><hr>
+
+<h3>Write a loop to print the multiplication table of a number (let's say 7) up to 10.</h3>
+
+for (var i=1; i<=10; i++){
+    document.write(7+"x"+"i"+"="+ 7*i + "<br><br>")
+}
 </body>
 <script src="./app.js"></script>
 </html>

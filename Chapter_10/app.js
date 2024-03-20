@@ -30,7 +30,30 @@
 // }
 
 
-var weekDays = ["mon" , "tue" , "wed" , "thur" , "fri" , "sat"]
-for (var i=0; i<= weekDays.length; i++){
-    document.write(weekDays[i]+ "<br>")
+// var weekDays = ["mon" , "tue" , "wed" , "thur" , "fri" , "sat"]
+// for (var i=0; i<= weekDays.length; i++){
+//     document.write(weekDays[i]+ "<br>")
+// }
+
+for (var i = 1; i<=10; i++){
+    document.write(i+(' ') + "Round"+"<br><br>")
+}
+
+for (var i = 2; i<=20;i++){
+    document.write(i+"<br><br>");
+}
+
+for (var i = 1; i<=15;i++){
+    document.write(i+"<br><br>");
+}
+
+var number=5;
+var factorial=1;
+for (var i = 1; i<=number;i++ ){
+    document.write(factorial+"*"+ number+"is:"+ factorial+ "<br><br>")
+}
+
+
+for (var i=1; i<=10; i++){
+    document.write(7+"x"+"i"+"="+ 7*i + "<br><br>")
 }
